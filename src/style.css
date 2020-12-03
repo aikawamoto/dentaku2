@@ -1,0 +1,89 @@
+/* This is a CSS file */
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn--yellow {
+  font-size:2em;
+  text-align: center;
+  color: #000;
+  background-color: #fbff00a4;
+  border-bottom: 5px solid #ccc100;
+}
+
+.btn--yellow:active {
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+
+.btn--7 {
+  font-size:2em;
+  text-align: center;
+  color: #000;
+  background-color: #ff008c4f;
+  border-bottom: 5px solid #fc06be8f;
+}
+
+.btn--7:active {
+  margin-top: 3px;
+  color: #000;
+  background: #ff0ab58e;
+  border-bottom: 2px solid #c5019b9d;
+}
+
+.btn--8 {
+  font-size:2em;
+  text-align: center;
+  color: #000;
+  background-color: #00ffff2d;
+  border-bottom: 5px solid #0caad1af;
+}
+
+.btn--8:active {
+  margin-top: 3px;
+  color: #000;
+  background: #0af7ffc9;
+  border-bottom: 2px solid #016dc5c5;
+}
+
+.box {
+border: 1px solid rgba(0, 255, 0, 0.329);
+font-size:2em;
+}
+
